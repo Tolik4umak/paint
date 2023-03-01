@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+    background: rgb(197, 197, 197);
+}
+.container{
+    background: rgb(211, 211, 211);
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(20 ,1fr);
+    grid-template-rows: repeat(20, fr );
+    border: 1px solid #6e6e6e;
+    /* border-bottom: none;
+    border-right: none; */
+}
+
+.sqr{
+    width: 25px;
+    height: 25px;
+
+    background-color: aliceblue;
+}
+
+.red{
+    background-color: rgb(83, 104, 173);
+}
+
+.fill_color{
+    background-color: rgb(255, 217, 0);
+}
+
+.tools{
+    margin: 0 auto;
+    width: fit-content;
+    padding: 30px;
+}
+
+.tools button {
+    background: gray;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+.button_active{
+    background: green !important;
+}
